@@ -55,6 +55,7 @@ public class BirdAI : MonoBehaviour
 		timeFlying = 0.0f;
 		timePerched = 0.0f;
 		//reference to decision tree
+		//DecisionTree script = (DecisionTree)GameObject.Find("DecisionTree").GetComponent("DecisionTree");
 		tree = new BirdDecisionTree();
 		
 		//keep track of originial orientation for reorientation
